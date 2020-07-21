@@ -1,0 +1,59 @@
+body {
+    background-color:#3d5812d8;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.signupform {
+    background-image: url("im3.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: inline-block;
+    position: absolute;
+    top:50%;
+    left:50%;
+    transform: translate(-50%,-50%);
+    width:40%;
+    height:30em;
+    text-align: center;
+    border: 2px white groove;
+}
+
+.logincontent {
+    margin-top: 3em;
+}
+
+.ls {
+    margin: 1em;
+    font-weight:bolder;
+    color: black;
+}
+
+.lsm {
+    border: none;
+    border-bottom: 1.5px black solid;
+    height: 2em;
+    padding:0 1em;
+    text-align: center;
+    background: none;
+    color:white;
+}
+
+.lsm:focus {
+    outline: none;
+}
+
+.lsb {
+    margin-top: 2em;
+    padding: .4em 2em;
+    font-weight:bold;
+    background-color: burlywood;
+    border-radius:1em;
+}
+
+.lsb:focus {
+    outline: none;
+}
+
+.rt {
+    color: red;
+}

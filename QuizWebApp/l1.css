@@ -1,0 +1,50 @@
+body {
+    background-color: rgb(255, 235, 205);
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.l1 {
+    margin:auto;
+    width: 70%;
+    padding: 1em;
+    border: 1px black solid;
+}
+
+.l1t {
+    text-align: center;
+    font-weight: bolder;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: cornflowerblue;
+}
+
+.buttons {
+    text-align: center;
+}
+
+.spacer {
+    flex:.3;
+}
+
+.logb {
+    background-color: darkgoldenrod;
+    color: whitesmoke;
+    text-transform: uppercase;
+    font-weight: bold;
+    padding: .6em 1.3em;
+}
+
+.logb:focus {
+    outline: none;
+}
+
+.logbut {
+    color: whitesmoke;
+    background-color: green;
+    text-transform: uppercase;
+    font-weight: 700;
+    padding: .6em 1.3em;
+}
+
+.logbut:focus {
+    outline: none;
+}

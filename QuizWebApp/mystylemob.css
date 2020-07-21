@@ -1,0 +1,49 @@
+@media only screen and (max-width:900px) {
+    .loginform {
+        width: 60%;
+    }
+
+    .signupform {
+        width: 60%;
+    }
+
+    .row {
+        width: 70%;
+    }
+
+    .l1 {
+        width: 90%;
+    }
+
+    table {
+        width:80%;
+    }
+}
+
+@media only screen and (max-width:600px) {
+    .loginform {
+        width: 70%;
+        height:25em;
+    }
+
+    .lsb {
+        margin-top: 1.5em;
+     }
+
+     .signupform {
+        width: 70%;
+    }
+
+    .row {
+        width: 80%;
+    }
+
+    table {
+        width: 90%;
+        height:15em;
+    }
+}
+
+@media only screen and (max-width:400px) {
+
+}

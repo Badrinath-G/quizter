@@ -1,0 +1,63 @@
+body {
+    background-image:radial-gradient(rgb(245, 147, 66),rgb(0,0,0));
+    background-repeat: no-repeat;
+    height: 100vh;
+}
+
+table {
+    box-shadow: .4em .4em .2em black;
+    width: 40em;
+}
+
+tr {
+    border: 1px black solid;
+}
+
+h2 {
+    text-align: center;
+    color: deepskyblue;
+}
+
+th,td {
+    text-align: center;
+    vertical-align: middle;   
+    padding: 1em;
+    background-color: darkkhaki;
+}
+
+
+.board {
+    position: absolute;
+    top: 40%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+
+.t1 {
+    
+}
+
+.t2 {
+    color: darkred;
+    text-transform: uppercase;
+}
+
+.t3 {
+    color:whitesmoke;
+    font-weight: bolder;
+}
+
+  .flogb {
+    background-color: green;
+    color: whitesmoke;
+    text-transform: uppercase;
+    font-weight: bold;
+    padding: 0.6em 1.3em;
+    position: absolute;
+    top:3%;
+    right:2%;
+  }
+
+  .flogb:focus {
+    outline: none;
+  }

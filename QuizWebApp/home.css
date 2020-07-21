@@ -1,0 +1,29 @@
+body {
+    background-color: grey;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.row {
+    position: absolute;
+    top:50%;
+    left:50%;
+    transform: translate(-50%,-50%);
+    border:1px black solid;
+    background-color:#66afdc;
+    width: 50%;
+}
+
+.srtbut {
+    color:white;
+    padding: .6em 1.5em;
+    border-radius: .4em;
+    background-color: burlywood;
+}
+
+.srtbut:focus {
+    outline: none;
+}
+
+.sdiv {
+    text-align: center;
+}
